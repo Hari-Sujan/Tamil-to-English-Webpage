@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#div1 {
+  height: 100vh;
+  background-color: rgb(15, 6, 91);
+  color: aliceblue;
+}
+
+#div11 {
+  height: 40%;
+  width: 100%;
+}
+
+#div11 button {
+  width: 5rem;
+  height: 1.3rem;
+  border-radius: 0.5rem;
+  outline: none;
+}
+
+#div12 {
+  height: 60%;
+  width: 100%;
+}
+
+#div11 h2 {
+  text-decoration: underline;
+  margin-left: 0.2rem;
+}
+#div12 h2 {
+  text-decoration: underline;
+  margin-left: 0.2rem;
+}
+
+#div12 p {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  width: 50%;
+  height: 50%;
+  overflow-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tamilInput {
+  margin-left: 2rem;
+  margin-top: 0.5rem;
+  width: 90%; /* Adjust width for mobile screens */
+  height: 50%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  outline: none;
+  overflow: hidden;
+  line-height: 20px;
+  font-family: Arial, sans-serif;
+  resize: none;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 768px) {
+  #tamilInput {
+    width: 60%;
+  }
+}
